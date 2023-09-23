@@ -1,0 +1,169 @@
+/*css variables*/
+:root {
+  --branding-color: #6c63ff;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #f9f7fe;
+}
+.logo {
+  max-width: 50px;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background: var(--secondary-color);
+  margin: 20px;
+}
+.intro {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+  margin: 25px;
+}
+.intro p {
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 15px;
+}
+.intro h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--branding-color);
+}
+h2 {
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 2;
+}
+p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  text-align: center;
+}
+h4 {
+  font-size: 40px;
+}
+.btn-branding,
+.btn-readMore {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 10px 20px;
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px;
+}
+footer p {
+  margin: 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #272142;
+  border-radius: 50%;
+
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: #6c63ff;
+  transition: all 100ms;
+  background: #707070;
+}
+/*About Page*/
+
+#heading {
+  font-size: 44px;
+}
+#description {
+  font-size: 20px;
+  font-weight: bold;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.about-section-content {
+  margin: 30px;
+}
+/*Contact Page*/
+.contact-me .content {
+  padding: 140px 20px;
+  margin-left: 55px;
+}
+
+#contact-me-heading {
+  font-size: 45px;
+}
